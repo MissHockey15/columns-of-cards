@@ -13,13 +13,16 @@ body {
 }
 
 h1 {
-  font-weight: 700;
   text-align: center;
   font-size: 2rem;
+  margin-bottom: 27px;
 }
 
 img {
-  width: 10%;
+  display: block;
+  width: 100px;
+  margin: auto;
+  margin-top: 15px;
 }
 
 h2 {
@@ -48,23 +51,23 @@ a:hover {
 .quest {
   float: left;
   width: 25%;
-  background-color: #f2f2f2;
+  background-color: #e2e2e2;
 }
 
 .dino {
   float: left;
   width: 25%;
-  background-color: #e2e2e2;
+  background-color: #ccc;
 }
 
 .dragon {
   float: left;
   width: 25%;
-  background-color: #ccc;
+  background-color: #aaa;
 }
 
 .ship {
   float: left;
   width: 25%;
-  background-color: #aaa;
+  background-color: #999;
 }
